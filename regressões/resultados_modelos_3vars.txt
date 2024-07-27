@@ -1,0 +1,96 @@
+$`Populacao + Desemprego + Renda_m2`
+
+Call:
+lm(formula = PSSA ~ Populacao + Desemprego + Renda_m2, data = dados_consolidados)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-219.01  -82.55   28.03   85.28  113.42 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  2.474e+03  1.977e+03   1.251 0.212403    
+Populacao    7.024e-04  4.474e-04   1.570 0.118120    
+Desemprego  -6.616e+03  9.217e+02  -7.178 1.59e-11 ***
+Renda_m2    -7.726e+01  2.185e+01  -3.535 0.000513 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 100.5 on 188 degrees of freedom
+  (73 observations deleted due to missingness)
+Multiple R-squared:  0.2851,	Adjusted R-squared:  0.2737 
+F-statistic: 24.99 on 3 and 188 DF,  p-value: 1.188e-13
+
+
+$`Populacao + Desemprego + Venda_m2`
+
+Call:
+lm(formula = PSSA ~ Populacao + Desemprego + Venda_m2, data = dados_consolidados)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-203.52  -65.63   27.32   62.54  124.79 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -8.823e+03  2.218e+03  -3.978 9.92e-05 ***
+Populacao    3.228e-03  4.960e-04   6.507 6.75e-10 ***
+Desemprego  -5.078e+03  8.328e+02  -6.098 5.99e-09 ***
+Venda_m2    -7.298e-01  8.529e-02  -8.557 4.04e-15 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 88.03 on 188 degrees of freedom
+  (73 observations deleted due to missingness)
+Multiple R-squared:  0.4513,	Adjusted R-squared:  0.4425 
+F-statistic: 51.54 on 3 and 188 DF,  p-value: < 2.2e-16
+
+
+$`Populacao + Renda_m2 + Venda_m2`
+
+Call:
+lm(formula = PSSA ~ Populacao + Renda_m2 + Venda_m2, data = dados_consolidados)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-183.004  -74.056    5.864   75.269  149.070 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.734e+04  2.514e+03  -6.899 7.76e-11 ***
+Populacao    5.111e-03  5.741e-04   8.903 4.59e-16 ***
+Renda_m2    -6.718e+01  2.047e+01  -3.282  0.00123 ** 
+Venda_m2    -8.268e-01  8.839e-02  -9.353  < 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 93.69 on 188 degrees of freedom
+  (73 observations deleted due to missingness)
+Multiple R-squared:  0.3784,	Adjusted R-squared:  0.3684 
+F-statistic: 38.14 on 3 and 188 DF,  p-value: < 2.2e-16
+
+
+$`Desemprego + Renda_m2 + Venda_m2`
+
+Call:
+lm(formula = PSSA ~ Desemprego + Renda_m2 + Venda_m2, data = dados_consolidados)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-220.59  -50.16   33.62   72.32  102.44 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  5.562e+03  1.203e+02  46.228  < 2e-16 ***
+Desemprego  -6.760e+03  8.759e+02  -7.718 6.78e-13 ***
+Renda_m2     1.093e+01  1.860e+01   0.588 0.557303    
+Venda_m2    -2.528e-01  6.547e-02  -3.861 0.000155 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 97.35 on 188 degrees of freedom
+  (73 observations deleted due to missingness)
+Multiple R-squared:  0.3289,	Adjusted R-squared:  0.3182 
+F-statistic: 30.71 on 3 and 188 DF,  p-value: 3.324e-16
+
+

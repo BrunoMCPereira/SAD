@@ -1,0 +1,24 @@
+
+Call:
+lm(formula = PSSA ~ Populacao + Desemprego + Renda_m2 + Venda_m2, 
+    data = dados_consolidados)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-214.75  -60.36   22.60   65.35  128.00 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.231e+04  2.465e+03  -4.992 1.36e-06 ***
+Populacao    4.049e-03  5.580e-04   7.256 1.03e-11 ***
+Desemprego  -4.846e+03  8.194e+02  -5.914 1.56e-08 ***
+Renda_m2    -5.659e+01  1.892e+01  -2.991  0.00315 ** 
+Venda_m2    -6.965e-01  8.428e-02  -8.264 2.54e-14 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 86.23 on 187 degrees of freedom
+  (73 observations deleted due to missingness)
+Multiple R-squared:  0.4763,	Adjusted R-squared:  0.4651 
+F-statistic: 42.52 on 4 and 187 DF,  p-value: < 2.2e-16
+

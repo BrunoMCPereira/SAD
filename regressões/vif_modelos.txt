@@ -1,0 +1,44 @@
+$`Populacao + Desemprego`
+ Populacao Desemprego 
+  1.020308   1.020308 
+
+$`Populacao + Renda_m2`
+Populacao  Renda_m2 
+ 3.838496  3.838496 
+
+$`Populacao + Venda_m2`
+Populacao  Venda_m2 
+ 5.753441  5.753441 
+
+$`Desemprego + Renda_m2`
+Desemprego   Renda_m2 
+  1.005451   1.005451 
+
+$`Desemprego + Venda_m2`
+Desemprego   Venda_m2 
+  1.001264   1.001264 
+
+$`Renda_m2 + Venda_m2`
+Renda_m2 Venda_m2 
+2.998344 2.998344 
+
+$`Populacao + Desemprego + Renda_m2`
+ Populacao Desemprego   Renda_m2 
+  3.996903   1.046944   3.909741 
+
+$`Populacao + Desemprego + Venda_m2`
+ Populacao Desemprego   Venda_m2 
+  6.399252   1.113654   6.233634 
+
+$`Populacao + Renda_m2 + Venda_m2`
+Populacao  Renda_m2  Venda_m2 
+ 7.567387  3.943662  5.911073 
+
+$`Desemprego + Renda_m2 + Venda_m2`
+Desemprego   Renda_m2   Venda_m2 
+  1.007286   3.016376   3.003815 
+
+[[11]]
+ Populacao Desemprego   Renda_m2   Venda_m2 
+  8.442048   1.123711   3.979276   6.344500 
+
